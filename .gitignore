@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+/apps/main/release
+/apps/main/node_modules
+/apps/rs_renderer/node_modules
 /.pnp
 .pnp.js
 

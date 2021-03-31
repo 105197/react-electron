@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    //nodejs 生态大多数模式都支持这么模块
+    "module": "commonjs",
+    //优先使用es5
+    "target": "ES5",
+    //但是仍然使用最新es特性
+    "lib": ["ESNext"],
+    //根源目录
+    "rootDir": "src",
+    //输出目录
+    "outDir": "dist",
+    //方便IDE调试
+    "sourceMap": true,
+    //跳过ts类型检测
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules","dist"]
+}
